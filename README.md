@@ -3,6 +3,8 @@
 This is a database containing the formant frequencies (f1, f2, f3)
 measured on recordings from [Lingua Libre](https://lingualibre.org/wiki/LinguaLibre:Main_Page).
 
+This data is released under the **CC BY 4.0** licence.
+
 ## Data
 The formants data is contained in the file [data/formants.tsv](https://github.com/lucasondel/LinguaLibreFormants/blob/main/data/formants.tsv).
 It is a tab-separated value with 7 fields:
