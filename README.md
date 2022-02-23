@@ -24,7 +24,7 @@ and the formants value were extracted with [PRAAT](https://www.fon.hum.uva.nl/pr
 
 ## Authors
 
-* [Marc Allassonière-Tang](https://www.marctang.info/)
+* [Marc Allassonnière-Tang](https://www.marctang.info/)
 * [Mathilde Hutin](https://mathildehutin.wordpress.com/)
 * [Lucas Ondel](https://lucasondel.github.io/)
 
