@@ -18,25 +18,25 @@ language_mapping = {
 
 # Speaker list.
 speakers = {
-    'Lucas_Werkmeister':     1,
-    'PeterTheOne':           2,
-    '0x010C':                3,
-    'GrandCelinien':         4,
-    'Guilhelma':             5,
-    'Pamputt':               6,
-    'Benoît_Prieur':         7,
-    'Xenophôn':              8,
-    'Exilexi':               9,
-    'Happypheasant':        10,
-    'Yiyi':                 11,
-    'KaMan':                12,
-    'Reda_Kerbouche':       13,  # Reda and Tatiana Kerbouche (Kerbush) are
-    'Tatiana_Kerbush':      13,  # associated to the same ID.
-    'Ahoraes':              14,
-    'Anonymât':             15,
-    'Eavqwiki':             16,
-    'Remux':                17,
-    'Rodelar':              18
+    'Lucas_Werkmeister':    'spk1',
+    'PeterTheOne':          'spk2',
+    '0x010C':               'spk3',
+    'GrandCelinien':        'spk4',
+    'Guilhelma':            'spk5',
+    'Pamputt':              'spk6',
+    'Benoît_Prieur':        'spk7',
+    'Xenophôn':             'spk8',
+    'Exilexi':              'spk9',
+    'Happypheasant':        'spk10',
+    'Yiyi':                 'spk11',
+    'KaMan':                'spk12',
+    'Reda_Kerbouche':       'spk13',  # Reda and Tatiana Kerbouche (Kerbush) are
+    'Tatiana_Kerbush':      'spk13',  # associated to the same ID.
+    'Ahoraes':              'spk14',
+    'Anonymât':             'spk15',
+    'Eavqwiki':             'spk16',
+    'Remux':                'spk17',
+    'Rodelar':              'spk18'
 }
 
 # X-Sampa to IPA mapping.
