@@ -7,8 +7,11 @@ import argparse
 # See:
 #   * https://iso639-3.sil.org/code_tables/639/data
 #   * https://en.wikipedia.org/wiki/ISO_639-3
+#
+# NOTE: now the mapping is just identity so not very useful. I keep
+# it nonetheless to facilitate the use of another mapping.
 language_mapping = {
-    'deu': 'nld',
+    'deu': 'deu',
     'fra': 'fra',
     'ita': 'ita',
     'pol': 'pol',

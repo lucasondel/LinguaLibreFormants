@@ -14,7 +14,7 @@ lang-id speaker-id  ipa f1 f2 f3 duration
 where:
 * `lang-id` is the [ISO 639-3](https://iso639-3.sil.org/code_tables/639/data)
   language code
-* `speaker-id` is a numeric identifier (from 1 to 18) for the speaker
+* `speaker-id` is the spkeaker identifier (from spk1 to spk18)
 * `ipa` is the ipa notation of the uttered vowel
 * `f1`, `f2`, `f3` frequencies for each 3 first formants
 * `duration` is the vowel duration.
