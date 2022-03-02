@@ -33,13 +33,36 @@ speakers = {
     'Happypheasant':        'spk10',
     'Yiyi':                 'spk11',
     'KaMan':                'spk12',
-    'Reda_Kerbouche':       'spk13',  # Reda and Tatiana Kerbouche (Kerbush) are
-    'Tatiana_Kerbush':      'spk13',  # associated to the same ID.
-    'Ahoraes':              'spk14',
-    'Anonymât':             'spk15',
-    'Eavqwiki':             'spk16',
-    'Remux':                'spk17',
-    'Rodelar':              'spk18'
+    'Reda_Kerbouche':       'spk13',
+    'Tatiana_Kerbush':      'spk14',
+    'Ahoraes':              'spk15',
+    'Anonymât':             'spk16',
+    'Eavqwiki':             'spk17',
+    'Remux':                'spk18',
+    'Rodelar':              'spk19'
+}
+
+# The speakers sex
+speakers_sex = {
+    'Lucas_Werkmeister':    'male',
+    'PeterTheOne':          'male',
+    '0x010C':               'male',
+    'GrandCelinien':        'male',
+    'Guilhelma':            'female',
+    'Pamputt':              'male',
+    'Benoît_Prieur':        'male',
+    'Xenophôn':             'male',
+    'Exilexi':              'female',
+    'Happypheasant':        'female',
+    'Yiyi':                 'male',
+    'KaMan':                'male',
+    'Reda_Kerbouche':       'male',
+    'Tatiana_Kerbush':      'female',
+    'Ahoraes':              'male',
+    'Anonymât':             'male',
+    'Eavqwiki':             'female',
+    'Remux':                'male',
+    'Rodelar':              'male'
 }
 
 # X-Sampa to IPA mapping.
@@ -98,9 +121,11 @@ def main(args):
             f2 = float(tokens[4])
             f3 = float(tokens[5])
             duration = float(tokens[6])
-            speaker = speakers[find_speaker(tokens[2], speakers.keys())]
+            spk_name = find_speaker(tokens[2], speakers.keys())
+            speaker = speakers[spk_name]
+            sex = speakers_sex[spk_name]
 
-            print(f'{lang}\t{speaker:3}\t{ipa}\t{f1:9.4f}\t{f2:9.4f}\t{f3:9.4f}\t{duration:9.4f}')
+            print(f'{lang}\t{speaker:3}\t{sex}\t{ipa}\t{f1:9.4f}\t{f2:9.4f}\t{f3:9.4f}\t{duration:9.4f}')
 
 
 if __name__ == '__main__':
