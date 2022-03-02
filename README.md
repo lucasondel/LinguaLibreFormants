@@ -7,14 +7,15 @@ This data is released under the **CC BY 4.0** licence.
 
 ## Data
 The formants data is contained in the file [data/formants.tsv](https://github.com/lucasondel/LinguaLibreFormants/blob/main/data/formants.tsv).
-It is a tab-separated value with 7 fields:
+It is a tab-separated value with the following fields:
 ```
-lang-id speaker-id  ipa f1 f2 f3 duration
+lang-id speaker-id speaker-sex ipa f1 f2 f3 duration
 ```
 where:
 * `lang-id` is the [ISO 639-3](https://iso639-3.sil.org/code_tables/639/data)
   language code
 * `speaker-id` is the spkeaker identifier (from spk1 to spk18)
+* `speaker-sex` sex of the speaker
 * `ipa` is the ipa notation of the uttered vowel
 * `f1`, `f2`, `f3` frequencies for each 3 first formants
 * `duration` is the vowel duration.
